@@ -10,7 +10,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@')
 DEBUG = True if os.environ.get('DJANGOAPPMODE') == 'Debug' else False
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'proshop-demo.herokuapp.com', 'mosimaramphele-onlineshop-20d692fb0fd0.herokuapp.com']
+=======
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'sc%oco$+(3$z$at=z4j)#l-+ym)+_b11389mdt2^12m$bf63%@'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
+
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'proshop-demo.herokuapp.com','mosimaramphele-onlineshop-20d692fb0fd0.herokuapp.com']
+
+
+# Application definition
+>>>>>>> 54fbd33b803783d4dea9208c9b129ee3e1f9c26e
 
 INSTALLED_APPS = [
     'django.contrib.admin',
