@@ -94,7 +94,7 @@ DATABASES = {
         'USER': 'u4k1r1oue7f57t',
         'PASSWORD': 'p16c9b0c290647de3e9524c292e5c740ad462983d5ac5cd2554684033c0f0b59f',
         'HOST': 'cb4l59cdg4fg1k.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
-        'PORT': 'PORT': '5432',
+        'PORT':'5432',
     }
 }
 
